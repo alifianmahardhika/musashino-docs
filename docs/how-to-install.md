@@ -13,5 +13,7 @@ sidebar_position: 1
 - データを処理できるまともなPC（AIモデルを処理するのに十分なRAM容量が必要です)
 
 ## インストール方法
-DVD内のData フォルダを開き、Musashino App Setup 1.1.0.exe をダブルクリックし、アプリをインストールします。
+DVD内のData フォルダを開き、Mimawatt Setup 1.1.0.exe をダブルクリックし、アプリをインストールします。
+
+![Install](/img/user-install.png)
 

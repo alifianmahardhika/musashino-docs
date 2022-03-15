@@ -14,6 +14,8 @@ sidebar_position: 4
 3. 被験者の名前をクリックして選択します。
 4. 被験者カルテを修正し、 「保存」ボタンをクリックします。
 
+![SubjectDetail1](/img/image2.png)
+
 ## 被験者カルテを記入方法
 1. 被験者名　被験者名を漢字で入力します。
 2. カナ名　カナ名を入力します。
@@ -36,6 +38,18 @@ sidebar_position: 4
   - メールアドレス
   - 備考欄　任意
   - Avatar「Choose File」をクリックし、PCからファイルを選択し、アップロードボタンをクリックします。
+15. Monthly Baseline (kWh) (月次ベースライン)　毎月電気量のベースラインを入力します。
+16. AI Parameters (AI パラメーター) ここにAI パラメーターを入力します。
+  - 異常値(パラメータ名 anomaly_thr) : 閾値（青点群と赤点までの距離に対する閾値）
+  - 変調（睡眠）(パラメータ名 cls_thr) ：閾値（青点群と赤点までの距離に対する閾値）
+  - 熱中症時刻(開始)(パラメータ名 heatst_st) ：時間帯（ex.13)
+  - 熱中症時刻(終了)(パラメータ名 heatst_en) ：時間帯（ex.16）
+  - 熱中症監視気温(パラメータ名 heatst_temp) ：外気温度の閾値（ex.30)
+  - 異常値アラート（パラメータ名 elec_coef)：最小値に掛ける係数（ex.1.05）
+  - 睡眠（パラメータ名 cont_sleep)：睡眠時間中の短時間の起床時間：0.5時間
+  - 睡眠（パラメータ名 wakeup_int)：睡眠判定用連続時間：規定値1.5時間
+  - 睡眠（パラメータ名 wakeup_dif)：当該日の推定起床時間と過去の平均推定起床時間を見比べある設定値以上（ex.5時間）
+17. Email Checkbox 電子メールで送信するアラートの種類を選択します。
 
 :::caution
 注意：被験者データを保存した後に写真を追加することができます。
@@ -54,17 +68,45 @@ sidebar_position: 4
 4. データ入力が完成後、必ず「保存」ボタンをクリックします。
 5. 「EXCELアラート予測」ボタンをクリックします。
 
+![SubjectDetail2](/img/image37.png)
+
+![ExcelPredict](/img/image28.png)
+
 ## AIとExcelモデルの結果をCSVで吐き出し
 1. 被験者カルテページの下部にあるカレンダーボタンをクリックして、吐き出すCSVデータの日付範囲を選択します。
 2. CSVに吐き出すボタンをクリックします。
 3. 吐き出されたCSVファイルをPCに保存します。
 
+![SubjectDetail3](/img/image24.png)
+
 ## 電気量カレンダー
 1. 被験者明細ページは、被験者カルテ・電気量カレンダー・AI分析・Excel分析の4つのページで構成されています。
 2. 上部にある「電気量カレンダー」をクリックすると、電気量カレンダーのページに移動できます。
 
+![SubjectDetail4](/img/image4.png)
+
+![SubjectDetail5](/img/image15.png)
+
+![SubjectDetail6](/img/image8.png)
+
 ## AI分析
 被験者明細ページ上部にある「AI分析」をクリックすると、AI分析のページに移動できます。
 
+![SubjectDetail7](/img/image34.png)
+
+![SubjectDetail8](/img/image22.png)
+
+![SubjectDetail9](/img/image20.png)
+
+![SubjectDetail11](/img/image9.png)
+
+![SubjectDetail12](/img/image1.png)
+
 ## EXCEL分析
 被験者明細ページ上部にある「Excel分析」をクリックすると、Excel分析のページに移動できます。
+
+![SubjectDetail13](/img/image26.png)
+
+![SubjectDetail14](/img/image10.png)
+
+![SubjectDetail15](/img/image29.png)
