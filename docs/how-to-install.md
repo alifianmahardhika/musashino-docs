@@ -28,7 +28,20 @@ PythonがPCにインストールされていることを確認してください
 
 ![Explorer](/img/Python5.png)
 
-3. DVD内のData フォルダを開き、Musashino App Setup 1.1.0.exe をダブルクリックし、アプリをインストールします。
+3. 以下の手順でPythonをインストールを確認してください。
+  - コマンドプロンプトlを起動します。
+  - 以下のコマンドを入力します。
+  ```
+  where py
+  ```
+  - C:\Windows\py.exeにPythonがインストールされていることを確認します。
+  ```
+  Microsoft Windows [Version 10.0.19044.1586] (c) Microsoft Corporation. All rights reserved.
+  C:\Users\musashino>where py
+  C:\Windows\py.exe
+  ```
+
+4. DVD内のData フォルダを開き、Musashino App Setup 1.1.0.exe をダブルクリックし、アプリをインストールします。
 
 ![Install](/img/user-install.png)
 
