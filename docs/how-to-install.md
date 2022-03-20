@@ -13,7 +13,22 @@ sidebar_position: 1
 - データを処理できるまともなPC（AIモデルを処理するのに十分なRAM容量が必要です)
 
 ## インストール方法
-DVD内のData フォルダを開き、Mimawatt Setup 1.1.0.exe をダブルクリックし、アプリをインストールします。
+1. Pythonのインストール
+PythonがPCにインストールされていることを確認してください。インストールされていない場合はPythonをインストールしてください。PythonがPCにインストールされていない場合：DVDファイル中のpython-3.7.9-amd64.exeをダブルクリックし、PCにPythonをインストールします。
+2. 以下の手順でPythonをインストール。
+![Explorer](/img/Explorer.png)
+
+![Explorer](/img/Python1.png)
+
+![Explorer](/img/Python2.png)
+
+![Explorer](/img/Python3.png)
+
+![Explorer](/img/Python4.png)
+
+![Explorer](/img/Python5.png)
+
+3. DVD内のData フォルダを開き、Musashino App Setup 1.1.0.exe をダブルクリックし、アプリをインストールします。
 
 ![Install](/img/user-install.png)
 
